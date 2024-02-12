@@ -1,5 +1,5 @@
-
-# Set NFS Cluster Resource and Configure Active/Passive NFS Server
+# Part1
+## Set NFS Cluster Resource and Configure Active/Passive NFS Server
 
 ### Install and Configure Linux High Availability System, Pacemaker
 > [1]	On all Nodes, Install Pacemaker and configure some settings.
@@ -86,3 +86,4 @@ Membership information
     Nodeid      Votes Name
          1          1 node01.srv.world (local)
          2          1 node02.srv.world
+------------------------------------------------------------------------------------------
