@@ -86,4 +86,23 @@ Membership information
     Nodeid      Votes Name
          1          1 node01.srv.world (local)
          2          1 node02.srv.world
+
+#### If you'd like to remove all cluster settings to initialize, run like follows.
+```
+pcs cluster stop --all
+```
+node01.srv.world: Stopping Cluster (pacemaker)...
+node02.srv.world: Stopping Cluster (pacemaker)...
+node01.srv.world: Stopping Cluster (corosync)...
+node02.srv.world: Stopping Cluster (corosync)...
+```
+pcs cluster destroy --all
+```
+Warning: Unable to load CIB to get guest and remote nodes from it, those nodes will not be deconfigured.
+node02.srv.world: Stopping Cluster (pacemaker)...
+node01.srv.world: Stopping Cluster (pacemaker)...
+node02.srv.world: Successfully destroyed cluster
+node01.srv.world: Successfully destroyed cluster
 ------------------------------------------------------------------------------------------
+# Part2
+## 
