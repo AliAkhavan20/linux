@@ -1,4 +1,5 @@
-# Part1
+# Create cluster-nfs for kubernetes
+# Part1:
 ## Set NFS Cluster Resource and Configure Active/Passive NFS Server
 
 ### Install and Configure Linux High Availability System, Pacemaker
@@ -104,5 +105,3 @@ node01.srv.world: Stopping Cluster (pacemaker)...
 node02.srv.world: Successfully destroyed cluster
 node01.srv.world: Successfully destroyed cluster
 ------------------------------------------------------------------------------------------
-# Part2
-## 
